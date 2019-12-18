@@ -1,0 +1,26 @@
+@import url(./_active/popup__error_active.css);
+
+.popup__error {
+    position: absolute;
+    height: 11px;
+    font-size: 12px;
+    line-height: 14px;
+    color:#FF0000;
+    /* top: 53px; */
+}
+
+.popup__error_name {
+    top: 53px;
+}
+
+.popup__error_url {
+    top: 126px;
+}
+
+.popup__error_username {
+    top: 53px;
+}
+
+.popup__error_userjob {
+    top: 126px;
+}

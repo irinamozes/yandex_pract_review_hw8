@@ -1,0 +1,12 @@
+.errors {
+  color: #FF3333;
+  font-size: 12px;
+  line-height: 15px;
+  transition: .3s;
+  padding: 1px;
+  opacity: 0;
+}
+
+.input-container__invalid .errors {
+  opacity: 1;
+}

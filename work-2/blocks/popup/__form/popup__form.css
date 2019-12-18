@@ -1,0 +1,18 @@
+.popup__form {
+  margin-top: 60px;
+}
+
+.error-message {
+  color: #FF0000;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 14px;;
+  transition: .3s;
+  padding: 0px;
+  opacity: 0;
+}
+
+.input-container__invalid .error-message {
+  padding: 10px;
+  opacity: 1;
+}
